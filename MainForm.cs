@@ -67,14 +67,14 @@ namespace THAWFontWinForm
             {
                 MessageBox.Show($"The file was not found: '{selectedFilePath}'");
             }
-           /* catch (IOException)
+            catch (IOException)
             {
                 MessageBox.Show("An I/O error occurred while opening the file.");
             }
             catch (Exception ex)
             {
                 MessageBox.Show("An error occurred: " + ex.Message);
-            }*/
+            }
         }
 
         private void convertToThawButton_Click(object sender, EventArgs e)
